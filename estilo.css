@@ -1,0 +1,30 @@
+li::first-letter{
+    color:blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item3 {
+    color:aqua
+}
+/* input[type="radio"]:checked {
+    margin-left: 25px;
+} */
+input[type="checkbox"]:checked {
+    margin-left: 25px;
+}
+
+input[type="checkbox"]:checked + label[for="check"] {
+    background-color:green
+}
+input[type=email]:invalid {
+    background-color: blueviolet;
+}
+input[type=email]:valid {
+    background-color: darkred;
+}
+input::placeholder {
+    color:#ddd
+}
+p:hover {
+    color:blue
+}
